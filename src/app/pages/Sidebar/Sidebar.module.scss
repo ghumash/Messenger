@@ -1,0 +1,16 @@
+.sidebar {
+  @apply flex items-center flex-col justify-between border-r py-5;
+  border-color: rgb(255,255,255, .1);
+  .logo {
+    @apply w-10 h-10 opacity-90
+  }
+  .logo:hover {
+    @apply transition-all duration-150 opacity-100
+  }
+  .icon {
+    @apply mb-8 opacity-100
+  }
+  .icon:hover {
+    @apply transition-all duration-150 opacity-70 ease-in-out
+  }
+}
