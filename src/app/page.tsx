@@ -1,7 +1,17 @@
-export default function Home() {
-  return (
-    <main>
+import CurrentUser from "@/app/components/CurrentUser";
+import ChatList from "@/app/components/ChatList";
+import Chat from "@/app/components/Chat";
 
-    </main>
-  )
+export default function Home() {
+	return (
+		<div>
+			<div>
+				<CurrentUser/>
+				<ChatList/>
+			</div>
+			<div>
+				<Chat/>
+			</div>
+		</div>
+	)
 }
