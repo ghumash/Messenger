@@ -1,3 +1,3 @@
 export const first = () => {
-  return null
-};
+	return null
+}

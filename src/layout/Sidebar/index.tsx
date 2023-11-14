@@ -5,12 +5,12 @@ import { Sun } from 'lucide-react'
 import styles from './Sidebar.module.scss'
 import Link from 'next/link'
 import logo from '../../assets/img/logo.svg'
-import { Configs } from '@/app/ts/configs'
-import { MENU } from '@/app/ts/const'
 import cn from 'clsx'
 import { usePathname } from 'next/navigation'
+import { Configs } from '@/ts/configs'
+import {MENU} from "@/layout/Sidebar/Sidebar.data";
 
-export function Sidebar() {
+export default function Sidebar() {
 	const pathname = usePathname()
 
 	return (

@@ -1,3 +1,3 @@
 export const Configs: any = {
-  iconSize: 30,
+	iconSize: 25
 }

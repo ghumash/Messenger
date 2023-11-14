@@ -1,16 +1,16 @@
-import CurrentUser from "@/app/components/CurrentUser";
-import ChatList from "@/app/components/ChatList";
-import Chat from "@/app/components/Chat";
+import CurrentUser from '@/components/CurrentUser'
+import ChatList from '@/components/ChatList'
+import Chat from '@/components/Chat'
 
 export default function Home() {
 	return (
 		<div>
 			<div>
-				<CurrentUser/>
-				<ChatList/>
+				<CurrentUser />
+				<ChatList />
 			</div>
 			<div>
-				<Chat/>
+				<Chat />
 			</div>
 		</div>
 	)
