@@ -8,7 +8,7 @@ import logo from '../../assets/img/logo.svg'
 import cn from 'clsx'
 import { usePathname } from 'next/navigation'
 import { Configs } from '@/ts/configs'
-import {MENU} from "@/layout/Sidebar/Sidebar.data";
+import { MENU } from '@/layout/Sidebar/Sidebar.data'
 
 export default function Sidebar() {
 	const pathname = usePathname()

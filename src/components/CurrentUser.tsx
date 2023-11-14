@@ -1,3 +1,3 @@
-export default function CurrentUser() {
+export function CurrentUser() {
 	return <div>CurrentUser</div>
 }
