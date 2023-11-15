@@ -5,6 +5,6 @@ export const metadata: Metadata = {
 }
 
 export function Chat() {
-	return <div>Chat Page</div>
+	return <div className={'p-layout'}>Chat Page</div>
 }
 

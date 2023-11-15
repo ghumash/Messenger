@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Chats() {
 	return (
 		<div className={styles.root}>
-			<div>
+			<div className={'border-r border-border'}>
 				<CurrentUser />
 				<ChatList />
 			</div>

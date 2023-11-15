@@ -1,3 +1,3 @@
 export function CurrentUser() {
-	return <div>CurrentUser</div>
+	return <div className={'p-layout'}>CurrentUser</div>
 }

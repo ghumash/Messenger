@@ -1,3 +1,3 @@
 export function ChatList() {
-	return <div>ChatList</div>
+	return <div className={'p-layout'}>ChatList</div>
 }
