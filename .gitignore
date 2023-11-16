@@ -30,9 +30,6 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
-# local env files
-/frontend/.env*.local
-
 # vercel
 /frontend/.vercel
 
@@ -129,10 +126,9 @@ coverage
 
 # Strapi
 
-.env
-license.txt
-exports
-*.cache
-dist
-build
-.strapi-updater.json
+/backend/license.txt
+/backend/exports
+/backend/*.cache
+/backend/dist
+/backend/build
+/backend/.strapi-updater.json
