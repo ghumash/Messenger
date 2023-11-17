@@ -1,0 +1,23 @@
+.root {
+  @apply flex w-screen h-4/6;
+  form {
+    @apply m-auto block w-3/12 p-10 border-border border rounded-2xl;
+    h1 {
+      @apply text-center mb-8;
+    }
+    .fields {
+      > * {
+        @apply p-3
+      }
+      & > :first-child {
+        @apply mb-5;
+      }
+    }
+    .buttons {
+      @apply flex justify-center mt-8;
+      & > :first-child {
+        @apply w-4/12 rounded-3xl;
+      }
+    }
+  }
+}
