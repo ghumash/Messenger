@@ -1,49 +1,26 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-
 ############################
 # Frontend
 ############################
-
-# dependencies
 /frontend/node_modules
 /frontend/.pnp
 /frontend/.pnp.js
 /frontend/.yarn/install-state.gz
-
-# testing
 /frontend/coverage
-
-# next.js
-/frontend/.next/
 /frontend/out/
-
-# production
-/frontend/build
-
-# misc
 /frontend/.DS_Store
 /frontend/*.pem
-
-# debug
 /frontend/npm-debug.log*
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
-
-# vercel
 /frontend/.vercel
 
-# typescript
-/frontend/*.tsbuildinfo
-/frontend/next-env.d.ts
 
 
 ############################
 # Backend
 ############################
-
-# OS X
-
+/backend/dist
+/backend/build
 /backend/.DS_Store
 /backend/.AppleDouble
 /backend/.LSOverride
@@ -51,13 +28,7 @@
 /backend/.Spotlight-V100
 /backend/.Trashes
 /backend/._*
-
-# Linux
-
 /backend/*~
-
-# Windows
-
 /backend/Thumbs.db
 /backend/ehthumbs.db
 /backend/Desktop.ini
@@ -66,9 +37,6 @@
 /backend/*.msi
 /backend/*.msm
 /backend/*.msp
-
-# Packages
-
 /backend/*.7z
 /backend/*.csv
 /backend/*.dat
@@ -92,43 +60,13 @@
 /backend/*.swm
 /backend/*.out
 /backend/*.pid
-
-# Logs and databases
-
-/backend/.tmp
-/backend/*.log
-/backend/*.sql
-/backend/*.sqlite
-/backend/*.sqlite3
-
-# Misc.
-/backend/
 /backend/*#
 /backend/ssl
-/backend/.idea
 /backend/nbproject
-/backend/public/uploads/*
-/backend/!public/uploads/.gitkeep
-
-# Node.js
-
 /backend/lib-cov
 /backend/lcov.info
 /backend/pids
 /backend/logs
 /backend/results
 /backend/node_modules
-/backend/.node_history
-
-# Tests
-
 coverage
-
-# Strapi
-
-/backend/license.txt
-/backend/exports
-/backend/*.cache
-/backend/dist
-/backend/build
-/backend/.strapi-updater.json
