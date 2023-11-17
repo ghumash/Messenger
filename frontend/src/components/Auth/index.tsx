@@ -3,7 +3,7 @@
 import { IAuth } from '@/ts/type'
 import Field from '@/ui/Field'
 import { AtSign, Lock } from 'lucide-react'
-import { Button } from "@/ui/Button";
+import { Button } from "@/ui/Button"
 import styles from './Auth.module.scss'
 
 export function Auth({ type }: IAuth) {
