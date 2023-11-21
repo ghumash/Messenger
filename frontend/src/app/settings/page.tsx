@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: 'Settings'
+	title: 'Settings',
 }
 
-export default function Settings() {
-	return <div className={'p-layout'}>Settings Page</div>
+export default function SettingsPage() {
+	return <div>Settings page</div>
 }

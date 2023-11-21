@@ -1,24 +1,25 @@
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
+import { Viewport } from 'next'
 import { Inter } from 'next/font/google'
-import '../scss/globals.scss'
-import React from 'react'
-import LayoutClient from "@/layout/LayoutClient";
+
+import LayoutClient from '@/components/layout/Layout'
+import './globals.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Next Messenger',
-	description: 'Best messenger for everyone',
-	icons: ''
+	title: 'Created by TG',
+	description: 'Created by TG',
+	icons: '/logo.svg',
 }
 
 export const viewport: Viewport = {
 	themeColor: '#0E0B18',
-	colorScheme: 'dark'
+	colorScheme: 'dark',
 }
 
 export default function RootLayout({
-	children
+	children,
 }: {
 	children: React.ReactNode
 }) {

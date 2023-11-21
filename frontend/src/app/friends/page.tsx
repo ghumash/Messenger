@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
+import { Friends } from './Friends'
 
 export const metadata: Metadata = {
-	title: 'Friends'
+	title: 'Friends',
 }
 
-export default function Friends() {
-	return <div className={'p-layout'}>Friends Page</div>
+export default function FriendsPage() {
+	return <Friends />
 }
